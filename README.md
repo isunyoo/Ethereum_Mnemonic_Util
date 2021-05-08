@@ -1,4 +1,4 @@
-================================
+================================ \
 Ethereum Mnemonic Key Utils
 ================================
 
@@ -11,8 +11,8 @@ Ethereum Mnemonic Key Utils
 
 #### Mnemonic key > private key
 
-$ echo "Ethereum mnemonic keys" > mySeedFile
-$ python3 mnemonic_utils.py mySeedFile
+$ echo "Ethereum mnemonic keys" > mySeedFile \
+$ python3 mnemonic_utils.py mySeedFile \
 
 
 #### Mnemonic key > private key #2
