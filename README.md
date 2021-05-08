@@ -1,5 +1,5 @@
-================================ \
-Ethereum Mnemonic Key Util \
+
+Ethereum Mnemonic Key Util 
 ================================ 
 
 ### Requirements
