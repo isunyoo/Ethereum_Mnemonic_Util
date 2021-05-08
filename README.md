@@ -1,6 +1,6 @@
 ================================ \
-Ethereum Mnemonic Key Util \
-================================
+Ethereum Mnemonic Key Util 
+================================ \
 
 ### Requirements
 
@@ -26,11 +26,13 @@ print("Your private key is: {}".format(str(binascii.hexlify(private_key), 'utf-8
 
 import binascii \
 import eth_keyfile \
-json_keyfile = eth_keyfile.create_keyfile_json(binascii.unhexlify(private_key), b"any password")
+json_keyfile = eth_keyfile.create_keyfile_json(binascii.unhexlify(private_key), b"any password") \
+print(json_keyfile)
 
 
 #### Private key > Mist keystore using web3.py module
 
 import binascii \ 
 from web3.auto import w3 \
-json_keyfile = w3.eth.account.privateKeyToAccount(binascii.unhexlify(private_key)).encrypt(b"any password")
+json_keyfile = w3.eth.account.privateKeyToAccount(binascii.unhexlify(private_key)).encrypt(b"any password") \
+print(json_keyfile)
